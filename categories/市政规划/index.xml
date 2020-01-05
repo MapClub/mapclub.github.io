@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>市政规划 on MapClub</title>
+    <link>/categories/%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92/</link>
+    <description>Recent content in 市政规划 on MapClub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jeff Leek always obtains unbiased estimators</title>
+      <link>/post/2015/07/24/jeff-leek-always-obtains-unbiased-estimators/</link>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015/07/24/jeff-leek-always-obtains-unbiased-estimators/</guid>
+      <description>ssss</description>
+    </item>
+    
+  </channel>
+</rss>

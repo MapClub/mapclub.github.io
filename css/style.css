@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  line-height: 1.5em;
+  background: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: #783f04;
+}
+a:hover {
+  opacity: 0.6;
+}
+.header div, .container, .copyright, .menu {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 15px;
+}
+.page .header div, .page .container, .page .copyright, .page .menu { max-width: 900px; }
+.container { hyphens: auto; }
+@media (max-width: 930px) {
+  .page .container { padding: 0; }
+}
+main { margin-bottom: 15px; }
+
+/* header and footer areas */
+.header {
+  border-bottom: 1px solid #ced4da;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 15px 0 5px;
+
+}
+.header a:hover {
+  opacity: 1 !important;
+}
+.head-meta {
+  max-width: 850px;
+  margin: auto;
+  padding: 5px 20px 0px 20px;
+  color: #888;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.header, .list section, article { background: #fff; }
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+.list section {
+  flex: 1 0 350px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #eee;
+  box-sizing: border-box;
+  margin: 1em 0 0 15px;
+  padding: 1em;
+  overflow-x: hidden;
+  transition: all 0.3s;
+}
+.list section:hover {
+  box-shadow: 5px 3px 2px #eee;
+}
+
+@media (max-width: 380px) {
+  .list section { flex: auto; }
+}
+@media (min-width: 715px) {
+  .list section { max-width: calc(50% - 15px); }
+  .article-list h1 {
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .article-list h1:hover { white-space: inherit; }
+}
+@media (min-width: 1080px) {
+  .list section { max-width: calc(33.33333% - 15px); }
+}
+.article-list a { color: #000; }
+.categories a {
+  font-size: .9em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #666;
+}
+.article-list h1 { margin: .2em auto .2em 0; }
+article { padding: 1em; }
+.article-meta {
+  text-decoration: none;
+  background: #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+.menu, .article-meta, footer, .post-nav { text-align: center; }
+.article-footer { text-align: left; }
+.title { font-size: 1.2em; }
+.article-list h1, .title { line-height: 1.2em; }
+.article-list a, .header a, footer a, .categories a, .active a, .comments a { text-decoration: none; }
+.pagination { text-align: center; padding: 0px;}
+.pagination li, .terms li { display: inline;}
+.pagination a { padding: 0 .2em; }
+.footer {
+  background: #5c5540;
+  padding: 30px 10px;
+}
+.footer, .footer a { color: #fff; }
+.copyright, .copyright a { 
+  color: #c3b99b;
+  font-size: 14px;
+}
+.menu {
+  margin-bottom: .5em;
+  flex-wrap: wrap;
+
+}  
+.menu a {
+  color: #666;
+}
+.menu li {
+  cursor:pointer;
+  display: inline-block;
+  font-weight: bolder;
+  margin: 2px 5px;
+  background-color: #fff;
+  padding: 2px 8px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.menu li:hover {
+  background-color: #eee;
+}
+
+hr {
+  border-style: dashed;
+  color: #ddd;
+}
+
+/* code */
+pre {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  overflow-x: auto;
+}
+code { background: #f9f9f9; }
+pre code {
+  background: none;
+  padding: .5em;
+  display: block;
+}
+
+/* misc elements */
+img, iframe, video { max-width: 100%; }
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: 1em auto auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+tr:nth-child(even) { background: #eee }
+
+.thumbnail {
+  height: 11em;
+  width: 8em;
+  float: left;
+  overflow: hidden;
+  margin: 5px 8px 5px 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#TableOfContents, #TOC, .comments {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.comments a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+.terms { padding-left: 0; }
+.post-nav {
+  margin: .5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footnotes { font-size: .9em; }
+.footnotes hr {
+  width: 50%;
+  margin-left: 0;
+}
