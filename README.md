@@ -1,2 +1,2 @@
-# mapclub.github.io
+# MapClub
 Map resource sharing and exchange
