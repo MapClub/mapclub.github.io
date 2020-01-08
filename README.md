@@ -1,2 +1,2 @@
 # MapClub
-Map resource sharing and exchange
+Map resource sharing and exchange.
