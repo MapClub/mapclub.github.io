@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MapClub</title>
-    <link>/categories/</link>
+    <link>https://mapclub.github.io/categories/</link>
     <description>Recent content in Categories on MapClub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mapclub.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>市政规划</title>
-      <link>/categories/%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92/</link>
+      <link>https://mapclub.github.io/categories/%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92/</guid>
+      <guid>https://mapclub.github.io/categories/%E5%B8%82%E6%94%BF%E8%A7%84%E5%88%92/</guid>
       <description></description>
     </item>
     
